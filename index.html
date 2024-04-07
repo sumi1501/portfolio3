@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumithra's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/de794040ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="home" class="header">
+        <div class="container">
+            <nav>
+                 <img src="images/sum.jpg" class="logo" alt="" srcset="">
+                <ul id="side">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>  
+                    <i class="fa-solid fa-square-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas item" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I am <span>Sumithra</span></h1>
+                <p>Aspiring Python Software Developer</p>
+            </div>
+        </div>
+    </div>    
+
+
+    <!-- --------------------------------------------------------About------------------------------------------------ -->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/su.jpeg" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="about-title">About Me</h1>
+                    <p class="text">Goal-oriented Aspiring Software Developer with Seeking an opportunity to work for an organization
+                        to have a platform to learn and explore new technologies and improve my Skills more.</p>
+
+                        <div class="tab-tit">
+                            <p class="tab-link active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-link" onclick="opentab('Edu')">Education</p>
+                        </div>
+
+                        <!-- skill -->
+                        <div class="tab-content active-tab" id="Skills">
+                            <ul>
+                                <li><span>Web Development- FrontEnd</span> <br> <div class="tech">HTML, CSS, JS</div> </li>
+                                <li><span>Software Development- BackEnd</span> <br><div class="tech">Python, Django, SQL </div></li>
+                            </ul>
+                        </div>
+                        <!-- exp -->
+                        <!--
+                        <div class="tab-content" id="Exp">
+                            <ul>
+                                <li><span>Python Full Stack Developer - Trainee</span> <br> <div class="tech">Jspiders <span class="small">(08/2023 - Present)  Marathahalli, Bengaluru, India</span></div> </li>
+                                <p>JSpiders is the software course training organization with an aim to build the technichal knowledge and the curriculum.</p>
+                                <ul>
+                                    <li>Learning the core technologies like Python, HTML, CSS, JavaScript, and MySQL</li>
+                                    <li>Attending regular in person classes with experienced teaching professionals.</li>
+                                    <li>Learnt Python Basics - Data types, Variables, Conditions, Built-in Functions, Dictionaries, Tuples, Lists, Class, and Functions. OOPs Concept - Class, Inheritance, Methods, Polymorphism, Abstraction.
+                                    </li>
+                                </ul>
+                                
+                            </ul>
+                        </div>
+                    -->
+                        <!-- edu -->
+                        <div class="tab-content" id="Edu">
+                            <ul>
+                                <li><span>Bachelor of Science - Computer Science</span> <br> <div class="tech"> Periyar University<span class="small">(2020 - 2023) Dharmapuri, TN, India</span></div> </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------- Certificate---------------------------------------->
+<!--
+    <div id="certificate" class="Certificate">
+        <div class="container">
+            <h1 class="about-title">Certificate</h1>
+            <div class="clist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Python Certification</h2>
+                    <p>- Google for Education By GUVI (05/2023)</p>
+                    <a href="https://www.guvi.in/certificate?id=8e1ypw21A686B3M33Q" target="_blank"> Certicate Link</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Web Development - HTML, CSS, JavaScript</h2>
+                    <p>IBM - Coursera (09/2023)</p>
+                    <a href="https://www.credly.com/badges/077fe9e2-6d10-4665-9375-f0a53655f6b7/print" target="_blank"> Certicate Link</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>SQL Essential Training </h2>
+                    <p>- LinkedIn Learning (10/2023)</p>
+                    <a href="https://www.linkedin.com/learning/certificates/e62d47e094db6cd1ad64161a0c19e8dcfc31ad214f47c02fbe9386eb0476cac3" target="_blank"> Certicate Link</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    -->
+    <!-- ----------------------------------------- Portfolio ------------------------------------------------ -->
+
+     <div id="portfolio" class="Portfolio">
+        <div class="container">
+            <h1 class="about-title">My Work </h1>
+            <div class="wlist">
+                <div class="work">
+                    <img src="images/Mywork.png" alt="">
+                    <div class="layer">
+                        <h3>Age Calculator</h3>
+                        <p>This app tells your Age. Use it</p>
+                        <a href="https://sumi1501.github.io/Age_cal/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>This app helps you do your day-to-day math. Use it</p>
+                        <a href="https://sumi1501.github.io/Calculator/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/todo.png" alt="">
+                    <div class="layer">
+                        <h3>To-Do Lists</h3>
+                        <p>This app helps you to track of your tasks and works. Use it</p>
+                        <a href="https://sumi1501.github.io/To-Do-List-MINI-poroject/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more </a>
+        </div>
+    </div>
+
+
+
+
+    <!-- -------------------------------------------------Contact--------------------------------------------------- -->
+    <div id="contact" class="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="con-left">
+                    <h1 class="about-title">Contact Me </h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sumithramurugan1501@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> +91 6369012620 </p>
+                    <div class="s-icon">
+                        <a href="https://www.linkedin.com/in/sumithra-sumi-766a81291/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/sumi1501" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.hackerrank.com/profile/sumithramurugan4" target="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+                    </div>
+                    <a href="images/SUMITHRA.pdf" download target="_blank" class="btn btn-2">Dowload CV</a>
+                </div>
+                <div class="con-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" id="" placeholder="Your Email" required>
+                        <textarea name="Msg"  cols="30" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn-3">Submit</button>
+                    </form>
+                    <span id="masg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Sumithra. Made with passion. </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzA_UawMg2_xAO09YcmluD9f83c4NsaiewpMW1xFYFrNGXhHnC-SGCvfoKnfO-BGLeVHQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const masg = document.getElementById('masg');
+
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                masg.innerHTML = ' Message sent successfully  '
+                setTimeout(function(){
+                    masg.innerHTML = " "
+                }, 5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
